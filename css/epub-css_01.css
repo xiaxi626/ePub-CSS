@@ -1,7 +1,3 @@
-/*字体*/
-@font-face{font-family:'STKaiti';font-weight:normal;font-style:normal;src:url(../Fonts/huawen.ttf);}
-@font-face{font-family:'Serif';font-weight:normal;font-style:italic;src:url(../Fonts/san-serif.ttf);}
-@font-face{font-family:'Tianshi-SunOld';font-weight:normal;font-style:normal;src:url(../Fonts/tianshi.ttf);}
 /*基础样式*/
 body{padding:0%;margin-top:0%;margin-bottom:0%;margin-left:1%;margin-right:1%;line-height:1.2;text-align:justify;}
 h1{line-height:1.2;text-align:center;font-family:"DK-HEITI", "方正兰亭黑简体", "黑体";font-weight:bold;font-size:1.65em;}
@@ -60,9 +56,18 @@ a.duokan-footnote img{width:0.85em;/*<a>标签内的注释图片宽度为正文�
 li.duokan-footnote-item p{text-indent:0;/*如果你是使用单标签p来设置正文格式，需要添加这个声明去除首行缩进*/font-family:"仿宋";/*注释正文字体*/font-size:0.85em;/*注释正文字号比正文字号要小一些*/line-height:1.35em;/*行高*/text-align:justify;/*两端对齐*/}
 /*多看注释盒子*/
 ol.duokan-footnote-content{border-top:1px #000 solid;/*模拟纸书，在第1个注释上面添加一条横线，以与正文隔开*/margin-top:1.5em;/*注释内容与正文的间距*/}
+/*多看日文假名显示*/
+.jp{font-family:"DK-XIAOBIAOSONG";}
 /*以下填写自定义css样式*/
-.contents{font-size:1.3em;font-family:'Tianshi-SunOld';text-indent:0em;text-align:left;padding:0.2em 0 0.2em 0;margin:1.4em 0 0.7em 2em;font-weight:bold;}
-span.content1{font-family:'Serif';text-indent:0em;text-align:center;}
+/*字体*/
+@font-face{font-family:'contents';font-weight:normal;font-style:normal;src:url(../Fonts/tianshi.ttf);}
+.contents{font-size:1.3em;font-family:'contents';text-indent:0em;text-align:left;padding:0.2em 0 0.2em 0;margin:1.4em 0 0.7em 2em;font-weight:bold;}
+@font-face{font-family:"content1";src:url(../Fonts/huawen.ttf);}
+.content1{font-family:content1;text-indent:0em;text-align:center;}
+@font-face{font-family:"content2";src:url(../Fonts/san-serif.ttf);}
+.content2{font-family:content2;}
+@font-face{font-family:"content3";src:url(../Fonts/OptimaNovaLTPro-Light.OTF);}
+.content3{font-family:content3;}
 /*两端对齐*/
 .title{text-align:left;text-indent:0em;text-align:justify;text-align-last:justify;}
 /*文本框*/
