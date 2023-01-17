@@ -16,7 +16,7 @@ td{padding:3px 0px;}
 /*插图盒子*/
 div.duokan-image-single{margin:0.5em auto;/*插图盒子上下外边距为0.5em，左右设置auto是为了水平居中这个盒子*/}
 .cover{margin:0em;padding:0em;text-indent:0em;text-align:center;}
-.coverborder{border-style:none solid none solid;width:100%;border-color:#000000;border-width:1px;}
+.coverborder{border-style:none solid none solid;border-color:#000000;border-width:1px;}
 /*书名页相关*/
 .title_page{max-width:17em;padding:10% 0;margin:auto auto;}
 .title_page .author,.title_page .illustrator{text-align:right;font-family:"DK-KAITI", "方正楷体", "华文楷体", "楷体";}
@@ -56,8 +56,51 @@ a.duokan-footnote img{width:0.85em;/*<a>标签内的注释图片宽度为正文�
 li.duokan-footnote-item p{text-indent:0;/*如果你是使用单标签p来设置正文格式，需要添加这个声明去除首行缩进*/font-family:"仿宋";/*注释正文字体*/font-size:0.85em;/*注释正文字号比正文字号要小一些*/line-height:1.35em;/*行高*/text-align:justify;/*两端对齐*/}
 /*多看注释盒子*/
 ol.duokan-footnote-content{border-top:1px #000 solid;/*模拟纸书，在第1个注释上面添加一条横线，以与正文隔开*/margin-top:1.5em;/*注释内容与正文的间距*/}
+sup{font-size:0.75em;line-height:1.2;vertical-align:super !important;}
 /*多看日文假名显示*/
 .jp{font-family:"DK-XIAOBIAOSONG";}
+/* 颜色、阴影 */
+.color1{/*红色*/color:#FF0000;}
+.color2{/*黄色*/color:#FFFF00;}
+.color3{/*蓝色*/color:#00CED1;}
+.color4{/*黑色*/color:#000000;}
+.color5{/*白色*/color:#FFFFFF;}
+.color6{/*绿色*/color:#00FF33;}
+.color7{/*紫色*/color:#800080;}
+.color8{/*粉色*/color:#FF00FF;}
+.color9{/*橙色*/color:#FFAA33;}
+.color10{/*棕色*/color:#800000;}
+.shadow1{/*蓝色阴影*/text-shadow:0 0 3px #00CED1;text-shadow:0 0 0.1em #00CED1, 0 0 0.1em #00CED1, 0 0 0.1em #00CED1, 0 0 0.1em #00CED1, 0 0 0.1em #00CED1, 0 0 0.1em #00CED1, 0 0 0.1em #00CED1;}
+.shadow2{/*白色阴影*/text-shadow:0 0 3px #FFFFFF;text-shadow:0 0 0.1em #FFFFFF, 0 0 0.1em #FFFFFF, 0 0 0.1em #FFFFFF, 0 0 0.1em #FFFFFF, 0 0 0.1em #FFFFFF, 0 0 0.1em #FFFFFF, 0 0 0.1em #FFFFFF;}
+.shadow3{/*黑色阴影*/text-shadow:0 0 3px #000000;text-shadow:0 0 0.1em #000000, 0 0 0.1em #000000, 0 0 0.1em #000000, 0 0 0.1em #000000, 0 0 0.1em #000000, 0 0 0.1em #000000, 0 0 0.1em #000000;}
+.shadow4{/*橙色阴影*/text-shadow:0 0 3px #FFAA33;text-shadow:0 0 0.1em #FFAA33, 0 0 0.1em #FFAA33, 0 0 0.1em #FFAA33, 0 0 0.1em #FFAA33, 0 0 0.1em #FFAA33, 0 0 0.1em #FFAA33, 0 0 0.1em #FFAA33;}
+/*文字大小*/
+.em04{font-size:0.4em;}
+.em05{font-size:0.5em;}
+.em06{font-size:0.6em;}
+.em07{font-size:0.7em;}
+.em08{font-size:0.8em;}
+.em09{font-size:0.9em;}
+.em11{font-size:1.1em;}
+.em12{font-size:1.2em;}
+.em13{font-size:1.3em;}
+.em14{font-size:1.4em;}
+.em15{font-size:1.5em;}
+.em16{font-size:1.6em;}
+.em17{font-size:1.7em;}
+.em18{font-size:1.8em;}
+.em19{font-size:1.9em;}
+.em20{font-size:2em;}
+.em21{font-size:2.1em;}
+.em22{font-size:2.2em;}
+.em23{font-size:2.3em;}
+.em24{font-size:2.4em;}
+.em25{font-size:2.5em;}
+.em26{font-size:2.6em;}
+.em27{font-size:2.7em;}
+.em28{font-size:2.8em;}
+.em29{font-size:2.9em;}
+.em30{font-size:3em;}
 /*以下填写自定义css样式*/
 /*字体*/
 @font-face{font-family:'contents';font-weight:normal;font-style:normal;src:url(../Fonts/tianshi.ttf);}
